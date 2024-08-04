@@ -1,0 +1,46 @@
+.create-project {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .create-project h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-project form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-project label {
+    margin-bottom: 10px;
+  }
+  
+  .create-project input,
+  .create-project textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .create-project button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .create-project button:hover {
+    background-color: #0056b3;
+  }
+  
